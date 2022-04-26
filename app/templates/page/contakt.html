@@ -1,0 +1,56 @@
+{% extends 'index.html' %}
+{% load static %}
+
+
+{% block content %}
+
+    <div class="con-body">
+        <div class="con-divs">
+            <a href="#">
+                <div class="con-container">
+                    <div class="con-box" style="--clr: #a362ea";>
+                        <div class="con-content">
+                            <div class="con-icon"><ion-icon name="call-outline"></ion-icon></div>
+                            <div class="con-text">
+                                <h4>Phon namber</h4>
+                                <p>Our operators are always happy to answer you </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class="con-container">
+                    <div class="con-box" style="--clr: #fc5f0b";>
+                        <div class="con-content">
+                            <div class="con-icon"><ion-icon name="logo-whatsapp"></ion-icon></div>
+                            <div class="con-text">
+                                <h4>Whatsapp messenger</h4>
+                                <p>We also respond to messengers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="con-container">
+                    <div class="con-box"style="--clr: #0ed095";>
+                        <div class="con-content">
+                            <div class="con-icon"><ion-icon name="logo-instagram"></ion-icon></div>
+                            <div class="con-text">
+                                <h4>Instagram profile</h4>
+                                <p>You can also follow our products on Instagram</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div>
+            <img class="con-img" src="{% static 'img/phons.png' %}" alt="">
+        </div>
+    </div>  
+
+{% endblock %}
