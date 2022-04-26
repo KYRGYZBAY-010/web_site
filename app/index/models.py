@@ -18,7 +18,7 @@ class Task(models.Model):
 
 
 class Slide(models.Model):
-    img1 = models.ImageField(upload_to='img', null=True, blank=True)
+    img1 = models.ImageField(upload_to='img',  null=True, blank=True)
     img2 = models.ImageField(upload_to='img', null=True, blank=True)
     img3 = models.ImageField(upload_to='img', null=True, blank=True)
     title = models.CharField('Название', max_length=50)
@@ -34,3 +34,5 @@ class Slide(models.Model):
         verbose_name_plural = 'слайды'
 
 
+class Categories(models.Model):
+    pass
